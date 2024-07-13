@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color: white;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+li a {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #0C0C0C;
+}
+
+.header {
+    background-color: #0E0D0D;
+    z-index: 2;
+}
+
+.headerMin {
+    background-color: #0E0D0D;
+    width: 60vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.headerMin.transform-none {
+    transform: translateX(0);
+}
+
+.btnMenu {
+    z-index: 3;
+}

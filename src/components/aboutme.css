@@ -1,0 +1,21 @@
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .box {
+    background-color: #38AC3B;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+  }
+
+  h1{
+    font-size: 34px;
+  }
+
+  .text-custom-green {
+    color: #38AC3B;
+  }
